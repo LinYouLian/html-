@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			div{
+				width:500px;
+				height:300px;
+				border: 1px solid #000;
+				position: relative;
+			}
+			div>span{
+				width:30px;
+				height:30px;
+				background:rgba(0,0,0,0.6);
+				display: inline-block;
+				color:white;
+				text-align: center;
+				line-height: 30px;
+				font-size:20px;
+				position: absolute;
+				top:50%;
+				margin-top:-15px;
+			}
+			div>.left{
+				left:0px;
+			}
+			div>.right{
+				right:0px;
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+			<span class="left">&lt;</span>
+			<span class="right">&gt;</span>
+		</div>
+	</body>
+</html>

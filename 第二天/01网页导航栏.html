@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/iconfont.css" />
+		<style>
+			*{
+				margin:0px;
+				padding:0px;
+			}
+			.nav>li{
+				float:left;
+				list-style: none;
+				border:1px solid black;
+				margin-right:20px;
+				width:100px;
+				height:30px;1
+				line-height: 30px;
+				text-align: center;
+			}
+			/*修改a标签的文字颜色和下划线,必须选中a标签,不允许被继承*/
+			.nav>li>a{
+				color:blue;
+				text-decoration: none;
+				border: 1px solid #000;
+				width:100px;
+				height:30px;
+				display: inline-block;
+			}
+			/*display  改变元素性质    block块级    inline-block行内块   inline行内         none隐藏*/
+			
+			/*盒子模型中涉及到的属性有:width height padding margin border display*/
+			
+			.nav>li>ul{
+				border-radius: 15px;
+				list-style: none;
+				background:white;
+				padding:10px 0px;
+				box-shadow: 0px 0px 10px black;
+				/*隐藏*/
+				display: none;
+			}
+			/*鼠标移入li标签后,li标签触发的样式*/
+			.nav>li:hover>ul{
+				/*background:red;*/
+				/*显示*/
+				display: block;
+			}
+			.nav>li>ul>li{
+				padding:6px 0px;
+			}
+			.nav>li>ul>li>a{
+				color: grey;
+				text-decoration: none;
+			}
+			.nav>li>a>span{
+				color:#c0c2c8;
+			}
+			.nav>li:hover>a>span{
+				color:#626675;
+			}
+			.nav>li>ul>li:hover>a{
+				color:skyblue;
+			}
+		</style>
+	</head>
+	<body>
+		<ul class="nav">
+			<li><a href="">新闻</a></li>
+			<li><a href="">hao123</a></li>
+			<li><a href=""><span class="iconfont icon-zixun"></span>地图</a></li>
+			<li>
+				<a href="">
+					<span class="iconfont icon-shipin shipin"></span>
+					视频
+				</a>
+			</li>
+			<li>
+				<a href="">
+					<span class="iconfont icon-fangdajing fangdajing"></span>
+					贴吧
+				</a>
+				<ul>
+					<li><a href="">个人信息</a>	</li>
+					<li><a href="">切换账号</a></li>
+					<li><a href="">退出登录</a></li>
+				</ul>
+			</li>
+			<li><a href="">学术</a></li>
+			<li><a href="">更多</a></li>
+		</ul>
+	</body>
+</html>

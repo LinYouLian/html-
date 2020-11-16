@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			*{
+				margin: 0px;
+				padding: 0px;
+			}
+			body{
+				height:5000px;
+			}
+			div{
+				width:100%;
+				height:60px;
+				background:red;
+				/*定位*/
+				position: fixed;
+				/*新增四个属性用于调整位置*/
+				/*left right top bottom*/
+				/*参照物:浏览器窗口*/
+				/*固定定位后不占位置*/
+				/*固定定位后脱离文档流,变成行内块元素*/
+			}
+			ul>li{
+				width:50px;
+				height:50px;
+				border: 1px solid #000;
+			}
+			ul{
+				width:52px;
+				position: fixed;
+				/*right:200px;
+				top:250px;*/
+				left:0px;
+				top:0px;
+			}
+			span{
+				width:200px;
+				height:200px;
+				background:blue;
+				position: fixed;
+			}
+		</style>
+	</head>
+	<body>
+		<!--定位：解决页面标签排版位置问题-->
+		<!--		
+		1，固定定位     元素不会随着页面滚动而滚动
+		2，相对定位
+		3，绝对定位
+		-->
+		<!--<div></div>-->
+		<ul>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+		<span>123</span>
+	</body>
+</html>

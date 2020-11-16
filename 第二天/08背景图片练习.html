@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			*{
+				margin: 0px;
+				padding: 0px;
+			}
+			ul>li{
+				width:70px;
+				height:100px;
+				border: 1px solid grey;
+				list-style: none;
+				float: left;
+			}
+			ul{
+				width:288px;
+				/*border: 1px solid #000;*/
+				/*background:skyblue;*/
+				overflow: hidden;
+			}
+			/*所有的图标*/
+			ul>li>span{
+				width:24px;
+				height:24px;
+				/*border: 1px solid #000;*/
+				display: block;
+				background-image: url(img/T1.png);
+				margin:30px auto 0px;
+			}
+			ul>li>.travel{
+				/*移动背景图片    精灵图片*/
+				/*background-position: 水平方向移动  竖直方向移动;*/
+				background-position: 0px -88px;
+			}
+			ul>li>.picc{
+				background-position: 0px -44px;
+			}
+			ul>li>p{
+				text-align: center;
+				font-size:14px;
+				color:grey;
+			}
+		</style>
+	</head>
+	<body>
+		<ul>
+			<li><span style="background-position: 0px 0px;"></span><p>手机号</p></li>
+			<li><span style="background-position: 0px -88px;"></span><p>旅行</p></li>
+			<li><span style="background-position: 0px -44px;"></span><p>车险</p></li>
+			<li><span style="background-position: 0px -132px;"></span><p>车险</p></li>
+			<li><span style="background-position: 0px -176px;"></span><p>车险</p></li>
+			<li><span style="background-position: 0px -220px;"></span><p>车险</p></li>
+			<li><span style="background-position: 0px -264px;"></span><p>车险</p></li>
+			<li><span style="background-position: 0px -308px;"></span><p>车险</p></li>
+		</ul>
+	</body>
+</html>

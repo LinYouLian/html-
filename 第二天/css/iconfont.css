@@ -1,0 +1,29 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1603172914214'); /* IE9 */
+  src: url('iconfont.eot?t=1603172914214#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAPEAAsAAAAACAgAAAN2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDHAqDRIMWATYCJAMQCwoABCAFhG0HRRsFB8gekqSPjOjgFgAHAACIh6+x9P3dPUSVRAHKm1hgGcVFFLqyU0XC1ljSFbqejciUXW5uY6MSNf27C4TywcgV7wKXf7lmWwQhVxdIVhEq9Jm7TQ6TA1SiU+H+7Qv3F8fURenA8m02l6iyzvPRboCjaB1QdJFtwrhFPJtOCkae3E6gaYElgYPg2xPqCuwXiFeFgkG9o1EWkkNdqE5MLeIDqKindwgTgPfF7+M/WIQoSSXDoadP9jqsfok9qMEOfodbGQJwj2eCPYuMTUAhnk1aHihVvk1QM2xdtgWoq0scq07lQY3P17x7kdTpL48kZKIKE9tgpv2ZX2JCJ/FLhU7wSy1Bhi+kdx0tvAV80di5VklNmkqqyvbLuPpAsjn5/yzl9DT5+Djx5CRp+Mwn6aNi8c0aEM/OUs45Pm6WXOFqShD3TaRGd9UQ3I4hWD/SgZTDxCk/QuY5SYWi1CQgObanDte5S6AT91jdJmGtaF53niFh+ITQcUwYOj2yPPlnQxXBb5qk/Ha6L4jPzLRb1sM2kzgcEiTCTAQtJixFhIF1o/+ZWdvJegK1vL04OYm0ExOU7RCYIIIWE14EZp/DMe6NlLkIpRKrnBNBRacqTXnX0qjUDe8EvWdpYVqse3T2KEzqRjWldlWJdjJUMBVGB1pxJRLrP2gbtH7bgCNDLk0vweqNN1koK/uzvuf6MjlZuO80y8J99Y1MakhrTI6Uo9ocQQXAzTmchYomMzOtwwhQHkCS+f6d3bz+BH6ky3j+irZeT87PFaK9Yb2ZLWA79z/hhtw/j7sxrUR81JYSCIQTjypO1EBCk/T8ZSGGbo8hm2z2EOodrg1JzTxkdYvIgt2EipYZVNVtQ9OGkNktI1VKojSwrldB6JuHpOs7ZH0sZMHeQMXUK1T1A0LTWSgs2bIcheIBVcQi0jErx0JNSc76qFkm30nEDgva/IL0piA0nWg3mfWDR5IUHGNEdSIWNRHHvEC5GKx2I8dRWBEoi7RoUhBF3tJmyqc+NMlWLjTtCxAmQnQoSw4V0igSz7JHmoPv3xEh5mCChZQh4xsJhMzGkR1rthuQR4nclPJabqmWEBZqRDiUJ6C4ULAyEYd8CqqY7mQhmshEwR4ez5KNzpS3VTI5v8z9hEugCZcpkSJHiYrmk0wpdGaZ2bhKU2EWy2p1gemZEgAAAA==') format('woff2'),
+  url('iconfont.woff?t=1603172914214') format('woff'),
+  url('iconfont.ttf?t=1603172914214') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1603172914214#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-fangdajing:before {
+  content: "\e617";
+}
+
+.icon-zixun:before {
+  content: "\e609";
+}
+
+.icon-shipin:before {
+  content: "\e619";
+}
+

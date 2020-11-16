@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+	<style type="text/css">
+		*{
+			margin: 0px;
+			padding: 0px;
+		}
+		.big{
+			height: 50px;
+			width: 100%;
+			background: rgbs(255,255,255,0.6);
+			border: 1px solid lightblue;
+		}
+		.one{
+			width: 300px;
+			height: 40px;
+			margin: 5px auto;
+			border: 1px solid black;
+			float: left;
+		}
+		.two{
+			width: 600px;
+			height: 40px;
+			margin: 5px 30px;
+			border: 1px solid black;
+			float: left;
+		}
+		.three{
+			width: 100px;
+			height: 40px;
+			margin: 5px 3px;
+			border: 1px solid black;
+			float: right;
+		}
+		.one>ul>li{
+			width: 30px;
+			height: 30px;
+			background: red;
+			list-style: none;
+			margin: 3px;
+			float: left;
+			border-radius:50% ;
+		}
+		.nav>li{
+			width: 45px;
+			height: 30px;
+			/*border: 1px solid black;*/
+			margin-left: 25px;
+			margin-top:3px ;
+			float: left;
+			list-style: none;
+			text-align: center;
+			line-height: 30px;
+		}
+		
+		.nav>li>span{
+			width: 50px;
+			height: 30px;
+/*			border: 1px solid black;
+*/			text-align: center;
+			margin: 0px 2px;
+			line-height:30px ;
+			display: inline-block;
+			font-size:10px ;
+		}
+		.nav>li:hover>span{
+			color: red;
+		}
+		.three>ul>li{
+			width: 30px;
+			height: 38px;
+			list-style: none;
+			float: left;
+			margin-left:10px ;
+			line-height: 38px;
+		}
+		.three>ul>li:hover>span{
+			color: red;
+		}
+		.nav>li>ul{
+				/*border-radius: 15px;*/
+				list-style: none;
+				background:white; 
+				/*padding:10px 0px;*/
+				/*box-shadow: 0px 0px 10px black;*/
+				/*margin-top: 10px ;*/
+				display: none;/*将下拉的框框藏起来*/
+			}
+		.nav>li>ul>li{
+			list-style: none;
+			padding: 30px 0px;
+		}
+		
+			/*点击li标签的时候显示下拉的边框*/
+			.nav>li:hover>ul{
+				display: block;
+			}	
+	</style>
+	<body>
+		<div class="big">
+			<div class="one">
+				<ul>
+					<li style="margin-right:20px ;"></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+			<div class="two">
+				<ul class="nav">
+					<li><a href=""></a><span>首页</span></li>
+					<li><a href=""></a><span>作品</span></li>
+					<li><a href=""></a><span>活动</span>
+						<ul>
+							<li>最新</li>
+							<li>设计大赛</li>
+							<li>线下活动</li>
+							<li>线上活动</li>
+							<li>合作</li>
+						</ul>
+					</li>
+					<li><a href=""></a><span>专题</span></li>
+					<li><a href=""></a><span>设计导航</span></li>
+					<li><a href=""></a><span>商务合作</span></li>
+					<li><a href=""></a><span>关于我们</span></li>
+					<li><a href=""></a><span>帮助</span></li>
+				</ul>
+			</div>
+			<div class="three"><ul>
+				<li><span class="iconfont icon-fangdajing"></span></li>
+				<li><span class="iconfont icon-denglu"></span></li>
+			</ul></div>
+		</div>
+	</body>
+</html>

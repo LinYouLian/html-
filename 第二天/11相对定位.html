@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			div{
+				width:100px;
+				height:30px;
+				border: 1px solid #000;
+				text-align: center;
+				line-height: 30px;
+			}
+			div>span{
+				width:20px;
+				height:20px;
+				border: 1px solid #000;
+				/*display: inline-block;*/
+				background-image: url(img/购物车.png);
+				background-size:100% 100%;
+				background-repeat: no-repeat;
+				/*相对定位*/
+				position: relative;
+				/*新增四个属性用于调整位置*/
+				/*left right top bottom*/
+				/*参照物是元素本身位置*/
+				top:5px;
+				/*相对定位不会脱离文档流     还占位*/
+			}
+		</style>
+	</head>
+	<body>
+		<!--相对定位：1，做位置微调      2，配合绝对定位让元素成为参照物-->
+		<div><span></span>购物车</div>
+	</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			*{
+				margin: 0px;
+				padding:0px;
+			}
+			div{
+				width:500px;
+				height:500px;
+				background:red;
+				/*绝对定位*/
+				/*position: absolute;*/
+				/*新增四个属性用于调整位置*/
+				/*left right top bottom*/
+				/*right:0px;
+				bottom:0px;*/
+				/*参照物:元素绝对定位后,逐层往上级元素查找是否具有定位方式,若有,就以该父级为参照物;
+						若上级元素都没有定位方式,就以浏览器窗口为参照物*/
+				/*绝对定位后元素脱离文档流变成行内块元素*/
+				/*绝对定位后元素不占位*/
+				/*position: relative;*/
+				position: relative;
+			}
+			p{
+				width:200px;
+				height:200px;
+				background:blue;
+				position: absolute;
+				right:0px;
+				bottom:0px;
+			}
+			span{
+				width:100px;
+				height:100px;
+				background:lime;
+				/*position: absolute;
+				right:0px;
+				top:0px;*/
+			}
+		</style>
+	</head>
+	<body>
+		<!--		
+		绝对定位：
+		1，元素之间互相覆盖
+		2，想要以某个元素为参照物时  ****
+		-->
+		<div>
+			<p>
+				这是p标签这是p标签这是p标签这是p标签这是p标签这是p标签
+				<span></span>
+			</p>
+		</div>
+		涉及到卡萨了解到看了
+	</body>
+</html>
