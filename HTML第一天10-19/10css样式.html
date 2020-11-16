@@ -1,0 +1,146 @@
+<!--CSS：层叠样式表      作用：修饰HTML标签-->
+<!--CSS使用方法：
+	1、嵌入式（内嵌式）  在head标签中书写一个style标签，在style标签中书写css代码		方便，分离不明显，学习
+	2、外链式（外联式）在外部的css文件夹中创建.css文件，在css文件中书写css代码,使用link标签进行引入     
+		可以提取公共样式，实现表现（css)和结构(html)分离,会产生缓存  ，团队开发
+	3、内联式（行内式） 给标签添加一个style属性，把样式写在属性值中     优先级高，可以覆盖其他方式，空间有限，调试
+-->
+<!--	CSS引入方式的优先级：  行内式>嵌入=外链						-->
+<!--页面中存在一个p标签,通过嵌入式把p改成红色，外链式把p改成蓝色，行内式把p改成绿色-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			/*CSS语法:选择器+样式名称+样式值*/
+			/*选择页面中的所有p标签*/
+			p{
+				/*文字颜色*/
+				color:red;
+				text-indent: 2em;
+			}
+			h1{
+				color:blue;
+			}
+			span{
+				/*!important 最高优先级,不建议使用,因为很难被覆盖*/
+				color:red !important;
+			}
+		</style>
+		<!--引入外部css文件-->
+		<link rel="stylesheet" href="css/new_file.css" />
+	</head>
+	<body>
+		<h1 style="color:blue;">标题</h1>
+		<p>段落段落段落段落段落段落段落段落段落段落段落段落段落段落段落段落段落段落段落段落段落段落段落段落段落</p>
+		<a href="">超链接</a>
+		<span>
+			span标签
+		</span>
+		<ul>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+		
+	</body>
+</html>

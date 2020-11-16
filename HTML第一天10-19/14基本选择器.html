@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			/*标签样式重置*/
+			*{
+				margin:0px;
+				padding:0px;
+			}
+			/*基本选择器:标签选择器+类选择器+id选择器*/
+			
+			/*标签选择器*/
+			/*div{
+				width:100%;
+				height:150px;
+				background: red;
+			}*/
+			/*类名选择器  .+类名*/
+			/*选中类名为one的标签*/
+			/*.one{
+				width:100%;
+				height:150px;
+				background:red;	
+			}
+			.two{
+				width:1200px;
+				height:600px;
+				background:blue;
+				margin:0px auto;
+			}*/
+			/*id选择器,选择器对应id的标签   #+id名*/
+			/*#head{
+				width:100%;
+				height:150px;
+				background:red;
+			}*/
+			
+			/*通配符选择器    选中页面中所有的标签*/
+			/**{
+				color:red;
+			}*/
+			
+			div{
+				background:red;
+			}
+			.one{
+				background:blue;
+			}
+			#head{
+				background:pink;
+			}
+			*{
+				background:lime;
+			}
+			/*	选择器优先级:   id选择器>类名选择器>标签选择器>通配符*			*/
+		</style>
+	</head>
+	<body>
+		<!--当标签名相同时，想要样式不同，先起类名
+			不要用数字开头    不要带中文    尽量有语义
+		-->
+		<div class="one" id="head">1</div>
+		<!--<div class="two" id="content">2</div>-->
+	</body>
+</html>

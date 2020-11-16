@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			*{
+				margin: 0px;
+				padding: 0px;
+			}
+			.one{
+				width:200px;
+				height:200px;
+				background:red;
+				/*浮动*/
+				float:left;
+			}
+			.two{
+				width:200px;
+				height:200px;
+				background:blue;
+				float:left;
+			}
+			span{
+				width:200px;
+				height:200px;
+				background:blue;
+				float: left;
+			}
+			.big{
+				background:pink;
+				/*height:200px;*/
+				overflow: hidden;
+			}
+		</style>
+	</head>
+	<body>
+		<!--文档流：规定页面标签默认排列方式
+			块级元素    div  p   ul li  h1    竖直排列    设置宽高有效     外边距都生效
+			行内元素    a   span            水平排列    设置宽高无效    上下外边距无效  
+			行内块元素    img               水平排列     设置宽高有效     外边距都生效
+		-->
+		
+		<!--要块级元素变成水平排列，就用浮动-->
+		<!--浮动后的元素，会脱离文档流，变成行内块元素，不占位置-->
+		<!--浮动塌陷：子级浮动后，父级检测不到子级的高度，导致父级高度为0
+			解决方法：1，给父级设置高度
+					 2,给父级元素添加属性overflow:hidden 让父级重新获取子级高度
+		-->
+		<!--<div class="big">
+			<div class="one">1</div>
+			<div class="two">2</div>
+		</div>
+		<h1>这是标题</h1>-->
+		<span>这是span111</span>
+		<span>这是span222</span>
+	</body>
+</html>

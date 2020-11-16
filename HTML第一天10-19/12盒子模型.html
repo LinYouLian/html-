@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<!--盒子模型：页面中所有的标签都是盒子模型-->
+		<!--盒子模型组成部分：
+			1，内容区       content  宽高
+			2，内边距      内容区到边框之间的距离
+			3，边框          框住元素的一层边框，占位
+			4，外边距       元素边框到另一条边框的距离
+		-->
+		<style>
+			*{
+				margin:0px;
+				padding:0px;
+			}
+			div{
+				/*宽度*/
+				width:200px;
+				/*高度*/
+				height:200px;
+				/*边框    边框粗细     边框线的类型solid实线     dashed虚线  dotted点线   double双层*/
+				border:1px solid black;
+				/*内边距*/
+				padding:10px;
+				/*外边距*/
+				margin-bottom:50px;
+			}
+			span{
+				border: 1px solid #000;
+				padding:10px;
+			}
+			p{
+				/*margin:50px;*/
+				margin-top:10px;
+			}
+		</style>
+	</head>
+	<body>
+		<div></div>
+		<p>这是p标签</p>
+		<img src="img/1.jpg" alt="" />
+		<img src="img/1.jpg" alt="" />
+		<!--<span>举报有害信息</span>-->
+	</body>
+</html>
